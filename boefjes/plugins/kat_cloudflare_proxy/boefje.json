@@ -1,0 +1,13 @@
+    {
+        "id": "cloudflare_proxy",
+        "name": "Cloudflare Proxy",
+        "description": "Check broken or bypassed Cloudflare proxy",
+        "consumes": [
+            "Network"
+        ],
+        "produces": [
+            "Finding"
+        ],
+        "environment_keys": ["CLOUDFLARE_API"],
+        "scan_level": 2
+    }

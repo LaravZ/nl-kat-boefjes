@@ -1,0 +1,9 @@
+{
+    "id": "kat_cloudflare_proxy_normalize",
+    "consumes": [
+        "cloudflare_proxy"
+    ],
+    "produces": [
+        "Finding"
+    ]
+}
